@@ -1,0 +1,36 @@
+body{
+    background-color: #333;
+}
+.toggle{
+    background-color: #777;
+    padding:0.0em 0.2em 0.2em 0.2em;
+    border-radius: 2em;
+    cursor: pointer;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    top:2em;
+    width: 2.5em;
+}
+.toggle input{
+   display:none;
+    
+
+}
+.toggle span{
+    background-color: #BBB;
+    display:inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 1em;
+    margin-top:0.08em;
+    vertical-align: middle;
+    
+          
+}
+
+.toggle input:checked+span{
+    margin-left: 1.4em;
+    margin-bottom: 0em;
+    background-color: yellow;
+}
